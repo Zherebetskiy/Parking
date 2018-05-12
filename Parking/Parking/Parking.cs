@@ -26,7 +26,8 @@ namespace Parking
             Timeout = Settings.Timeout,
             Prices = Settings.Prices,
             ParkingSpace = Settings.ParkingSpace,
-            Fine = Settings.Fine
+            Fine = Settings.Fine,
+            FreePlaces= Settings.ParkingSpace
         });
 
         public static Parking Instance { get { return parking.Value; } }
